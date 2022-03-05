@@ -3,3 +3,6 @@
 
 # canvas animation water effect in JavaScript
 <img src="https://raw.githubusercontent.com/krishnawaghmode/canvas_demo/main/water_effect.png" width="800">
+
+# Drawing App canvas
+<img src="https://raw.githubusercontent.com/krishnawaghmode/canvas_demo/main/DrawingApp.png" width="800">
