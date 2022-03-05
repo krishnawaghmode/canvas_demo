@@ -1,6 +1,7 @@
 # canvas animation random line in JavaScript
 <img src="https://raw.githubusercontent.com/krishnawaghmode/canvas_demo/main/random_line.png" width="800">
 ```html
+<pre>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -99,4 +100,5 @@
 	</script>
 </body>
 </html>
+</pre>
 ```
