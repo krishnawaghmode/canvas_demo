@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Text Writer Animation</title>
+</head>
+<body>
+	<div class="type-writer">
+		<div class="button">
+			<button onclick="typewriter()">Text Type Writer</button>
+		</div>
+		<p id="passage" style="font-size: 50px;"><span>Dummy text</span>..............</p>
+	</div>
+	<script>
+		var Type  = 0;
+		var text = "This system is designed for Add.SP Baramati Of-ice to register the crime cases and to send SMS Reminder to the investigating officers on the spec-ified dates about the progress of the investigation.('Typing Animation')";
+
+		var typing_speed = 100;
+		function typewriter() {
+			if(Type < text.length){
+				document.getElementById("passage").innerHTML += text.charAt(Type);
+				Type++;
+				setTimeout(typewriter,typing_speed); 
+			}
+		}
+		
+	</script>
+</body>
+</html>
